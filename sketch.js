@@ -22,7 +22,7 @@ function criarCelulas(){
         y: y,
         tipo: floor(random(3)),
         ang: floor(random(4)) * HALF_PI,
-        cor: random([MENTA, BEJE, MOSTARDA])
+        cor: random([Menta, BEJE, MOSTARDA])
       });
     }
   }
